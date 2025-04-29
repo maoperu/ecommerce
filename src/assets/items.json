@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Mochila Ejecutiva",
+      "price": 89.99,
+      "description": "Mochila elegante con compartimento para laptop",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    },
+    {
+      "id": 2,
+      "name": "Maleta de Viaje",
+      "price": 159.99,
+      "description": "Maleta con ruedas de 28 pulgadas, resistente y espaciosa",
+      "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87"
+    },
+    {
+      "id": 3,
+      "name": "Bolso Crossbody",
+      "price": 49.99,
+      "description": "Bolso elegante para uso diario",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7"
+    },
+    {
+      "id": 4,
+      "name": "Maletín de Cuero",
+      "price": 129.99,
+      "description": "Maletín profesional de cuero genuino",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa"
+    },
+    {
+      "id": 5,
+      "name": "Mochila Deportiva",
+      "price": 69.99,
+      "description": "Mochila resistente al agua para actividades deportivas",
+      "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3"
+    },
+    {
+      "id": 6,
+      "name": "Bolso de Viaje",
+      "price": 79.99,
+      "description": "Bolso espacioso perfecto para viajes cortos",
+      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601"
+    },
+    {
+      "id": 7,
+      "name": "Maletín para Laptop",
+      "price": 89.99,
+      "description": "Maletín acolchado con múltiples compartimentos",
+      "image": "https://images.unsplash.com/photo-1546938576-6e6a64f317cc"
+    },
+    {
+      "id": 8,
+      "name": "Maleta Carry-on",
+      "price": 119.99,
+      "description": "Maleta de cabina con cerradura TSA",
+      "image": "https://images.unsplash.com/photo-1581605405669-fcdf81165afa"
+    }
+  ]
+}
