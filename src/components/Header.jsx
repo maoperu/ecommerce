@@ -9,7 +9,7 @@ const mockSearchResults = [
   'Maletín Ejecutivo',
 ];
 
-const Header = () => {
+const Header = ({logoUrl}) => {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState('');
@@ -30,7 +30,7 @@ const Header = () => {
     <div className="main-header">
       <div className="logo-container" onClick={handleLogoClick} style={{ cursor: location.pathname !== '/' ? 'pointer' : 'default' }}>
         <img 
-          src="" 
+          src={logoUrl} 
           alt="Logo" 
           className="logo"
         />
@@ -58,10 +58,12 @@ const Header = () => {
       </div>
 
       <div className="header-buttons">
+        {/* Temporarily hidden login button
         <button className="header-button">
           <FaUser />
           <span>Login</span>
         </button>
+        */}
         <button className="header-button">
           <FaShoppingCart />
           <span>Carrito</span>
