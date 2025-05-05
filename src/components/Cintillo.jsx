@@ -14,7 +14,7 @@ const Cintillo = () => {
 
   return (
     <div className="cintillo">
-      <p>{cintillo}</p>
+      <div dangerouslySetInnerHTML={{ __html: cintillo }} />
     </div>
   );
 };
